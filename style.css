@@ -10,7 +10,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10o 20px; /* Add padding to create space on the sides */
+    padding: 10px 20px; 
+    
     
 }
 
@@ -40,8 +41,7 @@ body {
     display:block;
 }
   
-.menu-bar .home{
-}
+
 .page-title {
     margin-top: -7px;
     margin-bottom: 35px;
@@ -92,4 +92,13 @@ body {
 
 p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}s
+}
+
+hr {
+    margin: 0; 
+    padding: 0; 
+    border: none; 
+    height: 1px; 
+    background-color: #000;
+
+}
