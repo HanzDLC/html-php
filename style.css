@@ -102,3 +102,12 @@ hr {
     background-color: #000;
 
 }
+
+.gallery-content img{
+    display: flexbox;
+    height: 100px;
+    width: 100px;
+    object-fit:scale-down;
+    padding: 10px;
+    margin-bottom: 10px;
+}
