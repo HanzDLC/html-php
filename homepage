@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel ="stylesheet" href=""/>
+        <link rel ="stylesheet" href="style.css"/>
         <title>Home</title>
     </head>
         <body>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Gallery</a></li>
-                <li><a href="#">About Us</a></li>
+
+            <div id = "pageTitle">
+                 <h1  > DOG PROFILING</h1>
+                 
+            </div>       
+            
+            <div id = "menuBar">
+                <ul>
+                  <li><a href="#">Home</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">About Us</a></li>
                
 
-            </ul>
-
-
+                </ul>
+            </div>
 
         </body>
    
