@@ -1,18 +1,30 @@
-ul{
+#menuBar ul{
     display: flex;
     padding: 0px; 
     margin: 0px;
+    align-items: center;
+    align-content: center;
 
 }
 
-ul li{
+#menuBar li{
  list-style-type: none;
- padding: 10 px; 
+ padding: 50px;
+ align-items: center;
+ align-content: center;
 
  
 }
 
-ul li a{
+#menuBar ul li a{
  color: Black;
  text-decoration: none;
+ 
+}
+
+#pageTitle{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+
 }
