@@ -1,30 +1,63 @@
-#menuBar ul{
+body {
+    margin: 0;
+    padding: 0;
+    position: relative; 
+  }
+
+  
+  #menuBar ul {
     display: flex;
     padding: 0px; 
     margin: 0px;
-    align-items: center;
-    align-content: center;
-
-}
-
-#menuBar li{
- list-style-type: none;
- padding: 50px;
- align-items: center;
- align-content: center;
-
+    justify-content: center;
+    margin-top: -60px;
+  }
+  
+  #menuBar li {
+    margin-top: 100px;
+    margin: 10px;
+    border-radius: 30px;
+    list-style-type: none;
+    padding: 20px 50px;
+    background-color: lightgray;
+  }
+  
+  #menuBar ul li a {
+    color: Black;
+    text-decoration: none;
+    transition: color 0.3s ease;
  
-}
-
-#menuBar ul li a{
- color: Black;
- text-decoration: none;
- 
-}
-
-#pageTitle{
-    align-content: center;
-    align-items: center;
+  }
+  
+  .pageTitle {
+    margin-top: -7px;
+    margin-bottom: 35px;
     text-align: center;
+    padding: 20px;
+  }
 
+#bgImage{
+    position: absolute;
+    width: 100%; 
+    height: 100vh; 
+    background-image: url('images/dogbone.jpg');
+    background-size: 100%;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    z-index: -1; 
+}
+
+
+
+#menuBar ul li:hover{
+    transform: scale(1,1.05);
+    
+
+}
+
+#menuBar li a:hover{
+    color: lightskyblue;
+    
+    
+    
 }

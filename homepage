@@ -1,26 +1,43 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel ="stylesheet" href="style.css"/>
-        <title>Home</title>
-    </head>
-        <body>
 
-            <div id = "pageTitle">
-                 <h1  > DOG PROFILING</h1>
-                 
-            </div>       
+    <head>
+
+        <link rel="stylesheet" href="style.css"/>
+        <title>Home</title>
+
+    </head>
+
+
+    <body>
+
+        
+            <header><h1 class = "pageTitle"> DOG PROFILING</h1> 
             
-            <div id = "menuBar">
+                 
+                <div id="menuBar">
+            
                 <ul>
-                  <li><a href="#">Home</a></li>
+                    <li><a href="#">Home</a></li>
                     <li><a href="#">Gallery</a></li>
                     <li><a href="#">About Us</a></li>
-               
+                 </ul>
+        
+                </div>
+            
+            </header>    
+    
+        
 
-                </ul>
-            </div>
 
-        </body>
-   
+        <div id="bgImage"></div> <!-- Background image first to be behind other content -->
+        
+      
+
+        
+            
+        
+</body>
+
+
 </html>
