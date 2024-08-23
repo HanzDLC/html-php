@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     padding: 0;
@@ -5,7 +6,7 @@ body {
   }
 
   
-  #menuBar ul {
+  .menu-bar ul {
     display: flex;
     padding: 0px; 
     margin: 0px;
@@ -13,30 +14,41 @@ body {
     margin-top: -60px;
   }
   
-  #menuBar li {
+  .menu-bar li {
+    /*
+    margin-top: 100px;
+    margin: 10px;
+    border-radius: 30px;
+    padding: 20px 50px;
+    background-color: lightgray;
+    */
+    list-style-type: none;
+  }
+  
+  .menu-bar a {
+    color: Black;
+    text-decoration: none;
+    transition: color 0.3s ease;
     margin-top: 100px;
     margin: 10px;
     border-radius: 30px;
     list-style-type: none;
     padding: 20px 50px;
     background-color: lightgray;
+    display:block;
   }
   
-  #menuBar ul li a {
-    color: Black;
-    text-decoration: none;
-    transition: color 0.3s ease;
- 
+  .menu-bar .home{
+    /*background-color:rgb(144, 222, 28);*/
   }
-  
-  .pageTitle {
+  .page-title {
     margin-top: -7px;
     margin-bottom: 35px;
     text-align: center;
     padding: 20px;
   }
 
-#bgImage{
+.bg-image{
     position: absolute;
     width: 100%; 
     height: 100vh; 
@@ -49,15 +61,14 @@ body {
 
 
 
-#menuBar ul li:hover{
+.menu-bar ul li:hover{
     transform: scale(1,1.05);
+    
     
 
 }
 
-#menuBar li a:hover{
+.menu-bar li a:hover{
     color: lightskyblue;
-    
-    
-    
+
 }
