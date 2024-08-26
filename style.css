@@ -138,3 +138,29 @@ footer {
     z-index: 2;
     position: relative;
 }
+
+.about-us-container{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left:auto;
+    height:auto;
+    width:100%;
+    border: 2px solid red;
+}
+
+.second-container{
+    display:block;
+    margin-top:20px;
+    margin-bottom:30px;
+}
+
+.pic-container{
+    background-color:white;
+    margin-top:-5px;
+}
+
+
+
