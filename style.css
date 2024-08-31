@@ -126,7 +126,7 @@ hr {
 }
 
 .gallery:hover {
-    border: 3px solid greenyellow;
+    border: 2px solid greenyellow;
 }
 
 footer {
@@ -162,3 +162,7 @@ footer {
    
 }
 
+@font-face {
+    font-family: Pacifico;
+    src: url(font/Pacifico.ttf);
+}
