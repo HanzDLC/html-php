@@ -20,17 +20,17 @@ class Controller
 		{
 			case 0:
 			{
-				include_once('view/home1.php');
+				include_once('view/home.php');
 				break;
 			}
 			case 1:
 			{
-				include_once('view/about.php');
+				include_once('view/gallery.php');
 				break;
 			}
 			case 2:
 			{
-				include_once('view/content.html');
+				include_once('view/about-us.php');
 				break;
 			}
 		}

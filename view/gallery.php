@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css"/>
- 
+    <script src="../js/header.js"></script>
     <title>Gallery</title>
 </head>
 <body>
-    
+    <div id="header-container"></div>
     <div class="bg-image"></div>
 
     <div class="gallery-flex-container">
@@ -73,6 +73,6 @@
             <div class="description">Siberian Husky</div>
         </div>
     </div>
-  
+    <div id="footer-container"></div>
 </body>
 </html>
